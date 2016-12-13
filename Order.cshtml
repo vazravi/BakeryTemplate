@@ -40,9 +40,9 @@
         WebMail.EnableSsl = true;
 
         //Enter your Hotmail credentials for UserName/Password and a "From" address for the e-mail
-        WebMail.UserName = "";
-        WebMail.Password = "";
-        WebMail.From = "";
+        WebMail.UserName = "ravi.vaz@live.com";
+        WebMail.Password = "Rmv@7408";
+        WebMail.From = "ravi.vaz@live.com";
 
         if (WebMail.UserName.IsEmpty() || WebMail.Password.IsEmpty() || WebMail.From.IsEmpty()) {
             Response.Redirect("~/OrderSuccess?NoEmail=1");
